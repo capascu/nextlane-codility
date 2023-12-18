@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net8.0</TargetFramework>
+
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+
+		<AnalysisMode>All</AnalysisMode>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="BenchmarkDotNet" Version="0.13.11" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\..\src\Nextlane.Codility.Shared\Nextlane.Codility.Shared.csproj" />
+	  <ProjectReference Include="..\..\src\Nextlane.Codility\Nextlane.Codility.csproj" />
+	</ItemGroup>
+
+</Project>

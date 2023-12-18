@@ -1,0 +1,9 @@
+<Project>
+
+	<PropertyGroup>
+		<!-- Codility uses C# 6 instead of 7.3 which is the default version for .NET Framework 4.7 -->
+		<!--<LangVersion>6.0</LangVersion>-->
+		<LangVersion>6.0</LangVersion>
+	</PropertyGroup>
+
+</Project>
